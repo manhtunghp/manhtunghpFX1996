@@ -1,0 +1,412 @@
+* {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+body {
+  margin: auto;
+}
+.bg-grey {
+  background: #f7f7f7;
+}
+
+section > .container-banner {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  padding: 30px 50px;
+}
+#about .section-title {
+  width: 100%;
+}
+
+#target,
+#personal-info {
+  padding: 30px -0px;
+  align-items: center;
+}
+/* Banner */
+.img-banner {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: whitesmoke;
+}
+.img-banner img,
+.certificate-image img {
+  display: block;
+  width: 100%;
+}
+.text-img-banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#banner {
+  text-align: center;
+  background-image: url(/ASM02/ASM-02/images/banner.jpg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.mt-40-info {
+  list-style-type: none;
+}
+#target {
+  padding-left: 120px;
+}
+#nav-bar {
+  text-align: center;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: black;
+  border-left: 1px solid #d0d0d0;
+  padding: 30px 10px;
+}
+
+#nav-bar a:nth-child(2) {
+  border-right: 1px solid #d0d0d0;
+}
+
+#nav-bar a:nth-child(5) {
+  border-right: 1px solid #d0d0d0;
+}
+
+#nav-bar i {
+  color: #199cdb;
+}
+
+#nav-bar,
+.container-infomation {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  position: relative;
+  padding: 0px 50px;
+  width: 200px;
+}
+.name img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 10px solid white;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -50px;
+}
+
+.name h1 {
+  font-size: 1.5em;
+}
+
+.name p {
+  color: gray;
+  font-size: 0.75em;
+}
+
+/* Infomation and target*/
+#target {
+  background-color: #f5f5f5;
+}
+#target p {
+  padding: 16px 0;
+  line-height: 1.8;
+}
+.mt-40-info li {
+  padding: 5px 0;
+}
+#personal-info {
+  background-color: #f0f0f0;
+}
+#personal-info h1 {
+  padding: 0 50px;
+}
+.info li {
+  padding: 5px 0px;
+  list-style-type: none;
+}
+.container ul {
+  width: 100%;
+  height: auto;
+}
+.container li {
+  list-style-type: none;
+  font-size: 16px;
+  color: gray;
+  flex-basis: 10%;
+  align-self: center;
+}
+.personal-icon {
+  color: aqua;
+  margin-left: 30px;
+  overflow: hidden;
+}
+.personal-icon span {
+  color: aqua;
+  margin: auto;
+}
+
+/* Phần Job, kinh nghiệm, kỹ năng, Hoạt động, Học vấn, Sở thích, Ngôn ngữ */
+#job-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+  margin: 40px auto;
+}
+.job-item {
+  border: 1px solid #d0d0d0;
+  box-shadow: 1px 1px 5px #d0d0d0;
+}
+.job-header {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+.job-header h3,
+.job-header i {
+  padding: 20px 40px;
+}
+.job-content {
+  padding-bottom: 40px;
+}
+.time-line h6 {
+  font-style: italic;
+  font-weight: unset;
+  padding: 10px 0px;
+  color: gray;
+}
+.recent {
+  background-color: #199cdb;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 10px;
+}
+.work-detail {
+  padding: 40px 20px 0px 40px;
+  width: 100%;
+}
+.work-content h6,
+.hobbies-item h6 {
+  line-height: 1.8;
+  font-weight: unset;
+  color: gray;
+}
+.hobbies-item h6 {
+  padding: 10px 0px;
+  text-align: center;
+}
+.hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 40px 40px 0px 40px;
+}
+.hobbies-item {
+  width: 25%;
+}
+.hobbies-item i {
+  width: 50px;
+  color: #199cdb;
+  font-size: 24px;
+  height: 50px;
+  border: 1px solid;
+  border-radius: 50%;
+  line-height: 50px;
+  text-align: center;
+}
+.rate {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+}
+.rate div {
+  margin-right: 10px;
+  width: calc(33.33% - 10px);
+}
+.rate div.active {
+  height: 2px;
+  background-color: #199cdb;
+}
+.rate div.non-active {
+  height: 2px;
+  background-color: #d0d0d0;
+}
+.language,
+.skill {
+  width: 100%;
+  padding-top: 40px;
+}
+.language-item,
+.skill-item {
+  width: 100%;
+  padding: 0px 40px;
+}
+/* Chứng chỉ */
+.certificate-item {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d6c08d;
+}
+.certificate-image {
+  width: 40%;
+}
+.certificate-content {
+  width: calc(60% - 40px);
+}
+.certificate-item:nth-child(odd) .certificate-content {
+  border-right: 1px solid #d6c08d;
+}
+.certificate-image img {
+  width: 100%;
+}
+.certificate-name {
+  text-transform: uppercase;
+}
+.certificate-content h6 {
+  line-height: 1.8;
+  font-weight: unset;
+  color: gray;
+}
+.section-title {
+  padding: 20px 0;
+}
+/* Dự án */
+section > .container-project {
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+.row-project {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.project-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-image img {
+  width: 100%;
+}
+.time-line .right {
+  display: flex;
+  gap: 50px;
+}
+.project-name {
+  width: 100%;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: 1px solid #d0d0d0;
+}
+.project-items .time-line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+  padding: 10px 20px;
+  font-size: 0.8em;
+  border-left: 1px solid #d0d0d0;
+  border-right: 1px solid #d0d0d0;
+}
+.describe-project-01 table,
+.describe-project-01 td {
+  border-collapse: collapse;
+  border: 1px solid #d0d0d0;
+}
+.describe-project-01 {
+  font-size: 0.8em;
+  width: 100%;
+  color: gray;
+}
+.describe-project-01 td:first-child {
+  width: 30%;
+  padding: 10px 20px;
+}
+.describe-project-01 td:nth-child(2) {
+  line-height: 1.8;
+  padding: 10px;
+}
+.time-work p {
+  width: fit-content;
+  background-color: #199cdb;
+  border-radius: 20px;
+  padding: 5px 20px;
+  font-size: 0.8em;
+  color: white;
+  margin-bottom: 0;
+}
+.describe-project-01 table {
+  width: 100%;
+}
+/* Footer */
+section > .container-contact {
+  display: block;
+  margin: auto;
+  padding: 30px 50px;
+  width: 100%;
+}
+#footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+#footer ul li {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+#footer ul li i {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  padding: 25px;
+  font-size: xx-large;
+  background-color: #f7f7f7;
+  color: aqua;
+}
+.project-charter-wraper {
+  background-color: #0000ff;
+  padding: 20px !important;
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+}
+.charter-item {
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  height: 250px;
+}
+.charter-item:nth-child(3) {
+  grid-area: 1/3/3/4;
+  height: unset;
+}

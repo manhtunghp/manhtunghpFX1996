@@ -1,0 +1,174 @@
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .container-infomation {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+  /* Phần banner */
+  .banner {
+    padding: 50px 50px 200px 50px;
+    color: white;
+    height: 200px;
+    width: 767px;
+  }
+  .img-banner img {
+    max-height: 200px;
+  }
+  .text-img-banner h1 span {
+    margin-left: -350px;
+  }
+  /* Thông tin nav-bar */
+  #nav-bar .container-infomation {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-infomation a {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  #nav-bar {
+    margin-left: -300px;
+  }
+  /* Phần Mục tiêu và Thông tin cá nhân */
+  /* #about,
+  .container,
+  #personal-info,
+  .personal #job-info .container-experience {
+    display: block;
+    flex-direction: column;
+    width: 75%;
+    height: 750px;
+  } */
+  #about,
+  .container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  #job-info {
+    grid-template-columns: 1fr;
+  }
+  .container-contact ul {
+    flex-direction: column;
+  }
+  #target,
+  #personal-info {
+    padding: 15px;
+  }
+  /* .Muctieucanhan h1 {
+    display: flex;
+    flex-direction: column;
+    width: 755px;
+    height: 450px;
+  } */
+  .mt-40-infor {
+    margin-left: 350px;
+  }
+  #personal-info h1 {
+    padding: 0;
+  }
+  .personal-icon span {
+    display: flex;
+    flex-direction: row;
+  }
+  /* phần căn chỉnh mục sở thích */
+  .container {
+    flex-direction: column;
+    width: 70%;
+  }
+  .container-experience {
+    flex-direction: column;
+    width: 70%;
+  }
+  .container-Education {
+    flex-direction: column;
+    width: 70%;
+  }
+  .container-activate {
+    flex-direction: column;
+    width: 70%;
+  }
+  .container-hobby {
+    flex-direction: column;
+    width: 70%;
+  }
+  .container-languages {
+    flex-direction: column;
+    width: 70%;
+  }
+  .container-skills {
+    flex-direction: column;
+    width: 70%;
+  }
+  .container-project .row-project {
+    flex-wrap: wrap;
+    width: 75%px;
+    height: 700px;
+  }
+  .container-contact ul {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .container-infomation a {
+    display: block;
+    border: none;
+  }
+  section > .container-contact {
+    padding: 0;
+  }
+  #footer ul li i {
+    padding: 10px;
+  }
+  .container-infomation {
+    width: 100%;
+  }
+  .name {
+    display: none;
+  }
+  .time-line .right {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .project-items .time-line {
+    gap: 20px;
+  }
+  .time-work {
+    width: 100%;
+  }
+  section > .container-project {
+    padding: 0px;
+  }
+  .project-items {
+    padding: 20px;
+  }
+  .mt-40-info {
+    padding: 0;
+  }
+  .certificate-image,
+  .certificate-content {
+    width: 100%;
+  }
+  /*Phần footer*/
+  #footer ul,
+  li {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding: 9px;
+    align-items: center;
+  }
+  .container-contact ul,
+  li {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding: 9px;
+    align-items: center;
+    font-size: fill-box;
+  }
+}

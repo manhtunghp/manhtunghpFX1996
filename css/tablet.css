@@ -1,0 +1,60 @@
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  /* Phần NavBar */
+  #nav-bar,
+  .container-infomation {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    grid-template-columns: repeat(2 1fr);
+  }
+  .name {
+    display: none;
+  }
+  /* phần căn chỉnh mục sở thích */
+  #job-info {
+    grid-template-columns: 1fr 1fr;
+  }
+  .container-project .row-project {
+    flex-wrap: wrap;
+    width: 75%px;
+    height: 700px;
+  }
+  .container-contact ul {
+    flex-direction: column;
+    margin: 0px;
+  }
+  .time-line .right {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .project-items .time-line {
+    gap: 20px;
+  }
+  .certificate-image,
+  .certificate-content {
+    width: 100%;
+  }
+  #target {
+    padding-left: 20px;
+  }
+  /*Phần footer*/
+  #footer ul,
+  li {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding: 9px;
+    align-items: center;
+  }
+  .container-contact ul,
+  li {
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    padding: 9px;
+    align-items: center;
+    font-size: fill-box;
+  }
+}
